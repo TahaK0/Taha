@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Minecraft.ttf">
+            <string>Minecraft</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Aklindan_Bir_Sayi_Tut" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yoa-CF-Jyp">
+                                <rect key="frame" x="336" y="44" width="38" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPU-E1-xzy">
+                                        <rect key="frame" x="0.0" y="0.0" width="38" height="110"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="love-always-wins"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="9OB-JC-GLr"/>
+                                    <constraint firstAttribute="width" constant="38" id="Jg5-XG-czg"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S7Q-9c-ubU">
+                                <rect key="frame" x="290" y="44" width="38" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbB-x8-hlE">
+                                        <rect key="frame" x="0.0" y="0.0" width="38" height="110"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="love-always-wins"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="38" id="7Ha-vT-5ci"/>
+                                    <constraint firstAttribute="height" constant="110" id="c5O-V1-vLh"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JKI-bY-AQA">
+                                <rect key="frame" x="244" y="44" width="38" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bym-be-FyC">
+                                        <rect key="frame" x="0.0" y="0.0" width="38" height="110"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="love-always-wins"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="O09-vJ-BIy"/>
+                                    <constraint firstAttribute="width" constant="38" id="upb-Fn-7lD"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sVX-Qb-bTv">
+                                <rect key="frame" x="16" y="728" width="358" height="73"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wy5-PX-kNb">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="73"/>
+                                        <color key="backgroundColor" red="0.76470588235294112" green="1" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="25"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Tahmin Et !">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="Tahmin Et !" cornerStyle="capsule">
+                                            <fontDescription key="titleFontDescription" name="Minecraft" family="Minecraft" pointSize="25"/>
+                                            <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tahminButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lEM-no-jcW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="358" id="avV-MB-65g"/>
+                                    <constraint firstAttribute="height" constant="73" id="htC-7M-692"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6Xy-dM-cbs">
+                                <rect key="frame" x="16" y="205" width="358" height="133"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="1-50 Arasi Sayi Giriniz" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w2t-yj-lvE">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="133"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="40"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="358" id="Hr8-pw-Cu4"/>
+                                    <constraint firstAttribute="height" constant="133" id="drt-1p-Xl5"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8kV-Ju-xYl">
+                                <rect key="frame" x="16" y="367" width="358" height="110"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tahminizi Azaltin!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bJ-ec-1X0">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="110"/>
+                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="25"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="K2b-vp-Qyi"/>
+                                    <constraint firstAttribute="width" constant="358" id="sNQ-fV-hPy"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jhx-i3-Zt3">
+                                <rect key="frame" x="198" y="44" width="38" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAT-8f-GdE">
+                                        <rect key="frame" x="0.0" y="0.0" width="38" height="110"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="love-always-wins"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="8rV-zL-bWh"/>
+                                    <constraint firstAttribute="width" constant="38" id="W5G-yt-waa"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8gD-KH-U16">
+                                <rect key="frame" x="152" y="44" width="38" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhN-mk-g3A">
+                                        <rect key="frame" x="0.0" y="0.0" width="38" height="110"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="love-always-wins"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="Ehq-Ur-ORz"/>
+                                    <constraint firstAttribute="width" constant="38" id="gaI-wA-bY4"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.95686274509803915" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="S7Q-9c-ubU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="1XN-rc-hae"/>
+                            <constraint firstItem="8kV-Ju-xYl" firstAttribute="top" secondItem="6Xy-dM-cbs" secondAttribute="bottom" constant="29" id="2ln-ge-duO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8kV-Ju-xYl" secondAttribute="trailing" constant="16" id="49T-Iv-zr7"/>
+                            <constraint firstItem="sVX-Qb-bTv" firstAttribute="top" secondItem="8kV-Ju-xYl" secondAttribute="bottom" constant="251" id="4cJ-2T-3Rt"/>
+                            <constraint firstItem="8kV-Ju-xYl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="A5e-RB-qa3"/>
+                            <constraint firstItem="6Xy-dM-cbs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="BBW-Ap-zbI"/>
+                            <constraint firstItem="S7Q-9c-ubU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="290" id="ERI-XI-xbi"/>
+                            <constraint firstItem="6Xy-dM-cbs" firstAttribute="top" secondItem="yoa-CF-Jyp" secondAttribute="bottom" constant="51" id="EY7-A7-88H"/>
+                            <constraint firstItem="Jhx-i3-Zt3" firstAttribute="leading" secondItem="8gD-KH-U16" secondAttribute="trailing" constant="8" symbolic="YES" id="HbF-9k-ljU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yoa-CF-Jyp" secondAttribute="trailing" constant="16" id="NCd-OL-IvO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Xy-dM-cbs" secondAttribute="trailing" constant="16" id="Nkz-dJ-YQ6"/>
+                            <constraint firstItem="Jhx-i3-Zt3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="198" id="OcE-M7-Dec"/>
+                            <constraint firstItem="6Xy-dM-cbs" firstAttribute="top" secondItem="Jhx-i3-Zt3" secondAttribute="bottom" constant="51" id="Q76-Vr-4A8"/>
+                            <constraint firstItem="Jhx-i3-Zt3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="QDo-Z9-49f"/>
+                            <constraint firstItem="sVX-Qb-bTv" firstAttribute="top" secondItem="6Xy-dM-cbs" secondAttribute="bottom" constant="390" id="dSz-p0-kRH"/>
+                            <constraint firstItem="JKI-bY-AQA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="dvm-DD-0sP"/>
+                            <constraint firstItem="yoa-CF-Jyp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="336" id="fQp-YP-2NE"/>
+                            <constraint firstItem="yoa-CF-Jyp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="gXg-ea-d5R"/>
+                            <constraint firstItem="8gD-KH-U16" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="huP-pa-o5u"/>
+                            <constraint firstItem="JKI-bY-AQA" firstAttribute="leading" secondItem="Jhx-i3-Zt3" secondAttribute="trailing" constant="8" symbolic="YES" id="kWb-gM-48L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sVX-Qb-bTv" secondAttribute="trailing" constant="16" id="mx0-Po-637"/>
+                            <constraint firstItem="yoa-CF-Jyp" firstAttribute="leading" secondItem="S7Q-9c-ubU" secondAttribute="trailing" constant="8" symbolic="YES" id="nIH-q0-V1s"/>
+                            <constraint firstItem="JKI-bY-AQA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="244" id="o3U-et-K7r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sVX-Qb-bTv" secondAttribute="bottom" constant="9" id="qRM-RR-PdY"/>
+                            <constraint firstItem="8gD-KH-U16" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="rcJ-Pc-3JW"/>
+                            <constraint firstItem="S7Q-9c-ubU" firstAttribute="leading" secondItem="JKI-bY-AQA" secondAttribute="trailing" constant="8" symbolic="YES" id="vwC-OT-9ns"/>
+                            <constraint firstItem="sVX-Qb-bTv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xeh-1e-zKn"/>
+                            <constraint firstItem="6Xy-dM-cbs" firstAttribute="top" secondItem="8gD-KH-U16" secondAttribute="bottom" constant="51" id="z6Z-1g-4eL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buton1" destination="Bym-be-FyC" id="3dg-iB-slA"/>
+                        <outlet property="buton3" destination="XbB-x8-hlE" id="RRg-5H-6r4"/>
+                        <outlet property="buton4" destination="yPU-E1-xzy" id="ptE-HU-mIe"/>
+                        <outlet property="buton5" destination="hAT-8f-GdE" id="Jts-pB-PQb"/>
+                        <outlet property="buton6" destination="MhN-mk-g3A" id="aI0-FQ-uJd"/>
+                        <outlet property="ipucuLabel" destination="4bJ-ec-1X0" id="3pA-Cc-jMe"/>
+                        <outlet property="tahminButon" destination="wy5-PX-kNb" id="uao-X7-ETc"/>
+                        <outlet property="tahminTextField" destination="w2t-yj-lvE" id="MMS-K2-rc0"/>
+                        <segue destination="1xT-SB-slZ" kind="presentation" identifier="goToResult" id="lJ5-Ba-3qd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.30769230769231" y="-27.72511848341232"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="uhQ-sU-lU2">
+            <objects>
+                <viewController id="1xT-SB-slZ" customClass="ResultViewController" customModule="Aklindan_Bir_Sayi_Tut" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nCJ-v3-a29">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qta-B7-hyG">
+                                <rect key="frame" x="16" y="741" width="358" height="73"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHP-RZ-7dD">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="73"/>
+                                        <color key="backgroundColor" red="1" green="0.96078431369999995" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="25"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Yeniden Oyna ! ">
+                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="Yeniden Oyna ! " cornerStyle="capsule">
+                                            <fontDescription key="titleFontDescription" name="Minecraft" family="Minecraft" pointSize="25"/>
+                                            <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="1xT-SB-slZ" eventType="touchUpInside" id="Gqx-by-hwX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="358" id="Slc-Sb-uBo"/>
+                                    <constraint firstAttribute="height" constant="73" id="or8-8o-uYH"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="S17-Tu-cgP">
+                                <rect key="frame" x="16" y="429" width="358" height="107"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dogru tahmin!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ChQ-bD-0Tg">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="107"/>
+                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="40"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="358" id="2cl-p4-MT0"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SO0-o4-OFj">
+                                <rect key="frame" x="16" y="305" width="358" height="116"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tebrikler " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hF-7x-gRK">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="116"/>
+                                        <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="40"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="116" id="eXc-ov-azm"/>
+                                    <constraint firstAttribute="width" constant="358" id="g6P-CO-ISp"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Juw-Yh-aDa"/>
+                        <color key="backgroundColor" red="0.3803921569" green="0.29411764709999999" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="S17-Tu-cgP" firstAttribute="top" secondItem="nCJ-v3-a29" secondAttribute="top" constant="429" id="CaE-2A-PWG"/>
+                            <constraint firstAttribute="bottom" secondItem="S17-Tu-cgP" secondAttribute="bottom" constant="298" id="Fsd-vB-rR2"/>
+                            <constraint firstItem="Juw-Yh-aDa" firstAttribute="trailing" secondItem="qta-B7-hyG" secondAttribute="trailing" constant="16" id="GRH-sA-R1U"/>
+                            <constraint firstItem="SO0-o4-OFj" firstAttribute="leading" secondItem="Juw-Yh-aDa" secondAttribute="leading" constant="16" id="U9X-CS-6xB"/>
+                            <constraint firstItem="S17-Tu-cgP" firstAttribute="top" secondItem="SO0-o4-OFj" secondAttribute="bottom" constant="8" symbolic="YES" id="fCd-F5-hwJ"/>
+                            <constraint firstItem="Juw-Yh-aDa" firstAttribute="bottom" secondItem="qta-B7-hyG" secondAttribute="bottom" constant="20" id="iZU-fJ-F9Z"/>
+                            <constraint firstItem="S17-Tu-cgP" firstAttribute="leading" secondItem="Juw-Yh-aDa" secondAttribute="leading" constant="16" id="pU2-9J-ZRX"/>
+                            <constraint firstItem="Juw-Yh-aDa" firstAttribute="trailing" secondItem="S17-Tu-cgP" secondAttribute="trailing" constant="16" id="sua-2R-mWx"/>
+                            <constraint firstItem="Juw-Yh-aDa" firstAttribute="trailing" secondItem="SO0-o4-OFj" secondAttribute="trailing" constant="16" id="uCE-ju-iKB"/>
+                            <constraint firstItem="qta-B7-hyG" firstAttribute="leading" secondItem="Juw-Yh-aDa" secondAttribute="leading" constant="16" id="vC8-Yd-UY5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buton1" destination="bHP-RZ-7dD" id="HVS-sb-d6V"/>
+                        <outlet property="label1" destination="0hF-7x-gRK" id="3G2-6C-u0L"/>
+                        <outlet property="label2" destination="ChQ-bD-0Tg" id="Jh2-WH-8ZV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="96w-1B-NVQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1073.8461538461538" y="-28.436018957345969"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="love-always-wins" width="42.666667938232422" height="42.666667938232422"/>
+    </resources>
+</document>
